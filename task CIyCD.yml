@@ -12,4 +12,3 @@ job1:
   steps:
     - name: say hi
       run: echo "Helloooooo"
-      
