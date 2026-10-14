@@ -7,8 +7,8 @@ on :
     branches:
       - main
 jobs:
-job1:
-  runs-on: windows-latest
+  job1:
+    runs-on: windows-latest
   steps:
     - name: say hi
       run: echo "Helloooooo"
