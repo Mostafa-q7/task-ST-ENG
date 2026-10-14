@@ -1,0 +1,15 @@
+name : Task CI/CD
+on :
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+jobs:
+job1:
+  runs-on: windows-latest
+  steps:
+    - name: say hi
+      run: echo "Helloooooo"
+      
