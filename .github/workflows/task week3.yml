@@ -16,3 +16,16 @@ jobs:
     steps:
         - name: say welcome
           run: echo "welcome to task3"
+
+    name : add.py
+    on:
+      push:
+        branches:
+          - main
+    job3:
+      runs-on: ubuntu-latest
+      steps:
+          unit test:
+            name: run unit tests
+            run: |
+              python -m unittest discover -s tests -v
